@@ -1,8 +1,8 @@
-import Board from './board';
+import Board from "./board";
 
-describe('class Board', () => {
-  test('new Board()', () => {
-    const element = document.querySelector('.board');
+describe("class Board", () => {
+  test("new Board()", () => {
+    const element = document.querySelector(".board");
     const size = 4;
 
     const board = new Board(element, size);
